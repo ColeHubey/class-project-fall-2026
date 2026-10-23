@@ -62,4 +62,9 @@ public class GameManager implements Interactor {
                 "Resign processing not yet implemented."
         );
     }
+
+    @Override
+    public void start() {
+
+    }
 }

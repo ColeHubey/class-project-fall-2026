@@ -11,6 +11,6 @@ public class TUIMain implements Presenter {
     }
 
     public void start() {
-
+        interactor.start();
     }
 }
