@@ -85,10 +85,10 @@ public final class Location {
 
     public Location add(Shift shift) {
         return new Location(
-                row + shift.vertical(),
-                col + shift.horizontal()
+                col() + shift.x,
+                row() + shift.y
         );
     }
 
-    public record Shift(int vertical, int horizontal) {}
+    public record Shift(int x, int y) {}
 }
